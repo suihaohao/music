@@ -1,6 +1,6 @@
 $(function() {
 	var musics=[];
-	$.get('/databas.json').done(function(data){
+	$.get('./databas.json').done(function(data){
 		musics=data;
 		render();
 		// console.table(musics)
