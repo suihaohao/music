@@ -1,0 +1,50 @@
+[
+    {
+        "filename": "./音频/American Authors - Best Day Of My Life [mqms2](1).mp3",
+        "duration": "03:14",
+        "title": "Best Day Of My Life",
+        "album": "Best Day Of My Life - Single",
+        "artist": "American Authors"
+    },
+    {
+        "filename": "./音频/American Authors - Go Big Or Go Home [mqms2](1).mp3",
+        "duration": "02:49",
+        "title": "Go Big Or Go Home",
+        "album": "Go Big Or Go Home",
+        "artist": "American Authors"
+    },
+    {
+        "filename": "./音频/Blaxy Girls - If You Feel My Love [mqms2](1).mp3",
+        "duration": "03:26",
+        "title": "If You Feel My Love",
+        "album": "If You Feel My Love",
+        "artist": "Blaxy Girls"
+    },
+    {
+        "filename": "./音频/Blue - U Make Me Wanna [mqms2].mp3",
+        "duration": "03:49",
+        "title": "U Make Me Wanna",
+        "album": "One Love",
+        "artist": "Blue"
+    },
+    {
+        "filename": "./音频/Katy Perry - Roar [mqms2].mp3",
+        "duration": "03:43",
+        "title": "Roar",
+        "album": "Roar",
+        "artist": "Katy Perry"
+    },
+    {
+        "filename": "./音频/Tank-如果我变成回忆.mp3",
+        "duration": "05:01",
+        "title": "如果我变成回忆",
+        "artist": "Tank"
+    },
+    {
+        "filename": "./音频/王菲-匆匆那年(电影《匆匆那年》同名主题曲).mp3",
+        "duration": "04:01",
+        "title": "匆匆那年(电影《匆匆那年》同名主题曲)",
+        "album": "匆匆那年",
+        "artist": "王菲"
+    }
+]
