@@ -21,6 +21,7 @@ $(function() {
 	// localStorage.musics=JSON.stringify(musics);
 	// musics=JSON.parse(localStorage.musics);
 	function render(){
+		$('#spansongnum1 span:eq(0)').text(musics.length);
 		$.each(musics,function(i,v){
 			$('<li index="1" class="li"><strong class="music_name" title="">'+v.title+'</strong>  <strong class="singer_name" title="">'+v.artist+'</strong> <strong class="play_time">'+v.duration+'</strong>  <div class="list_cp">  <strong class="btn_like" title="喜欢" name="" mid="">   <span>我喜欢</span>	</strong>	<strong class="btn_share" title="分享"> <span>分享</span> </strong>  <strong class="btn_fav" title="收藏到歌单"> <span>收藏</span> </strong>  <strong class="btn_del" title="从列表中删除"> <span>删除</span> </strong>   </div> </li>').appendTo($('#cc'));
 		})
@@ -111,7 +112,6 @@ $(function() {
 		$('#downloadbar').css({width: currentT+'%'});
 		audio.currentTime=currentT/100*audio.duration;
 	})
-	$('#spansongnum1 span:eq(0)').text(musics.length);
 	var toumingdu=1;
 	$('#spansongnum1').on('click',function(){
 		if (toumingdu===1) {
