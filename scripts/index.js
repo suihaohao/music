@@ -10,6 +10,16 @@ $(function() {
 	var yuansheng;
 	var songs=0;
 	var currentT;
+	// var musics=[
+	// 	{title:'如果我变成回忆',src:'Tank-如果我变成回忆.mp3',name:'tank',time:'2:12',},
+	// 	{title:'匆匆那年',src:'王菲-匆匆那年(电影《匆匆那年》同名主题曲).mp3',name:'王菲',time:'3:15',},
+	// 	{title:'太阳的后裔',src:'3.mp3',name:'宋钟基',time:'3:15',},
+	// 	{title:'演员',src:'演员.mp3',name:'薛之谦',time:'3:15',},
+	// 	{title:'bangbangbang',src:'bangbangbang.mp3',name:'big bang',time:'3:15',},
+	// 	{title:'IF YOU',src:'IFYOU.mp3',name:'big bang',time:'3:15',}
+	// ]
+	// localStorage.musics=JSON.stringify(musics);
+	// musics=JSON.parse(localStorage.musics);
 	function render(){
 		$('#spansongnum1 span:eq(0)').text(musics.length);
 		$.each(musics,function(i,v){
